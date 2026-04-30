@@ -1,1 +1,26 @@
-
+{
+  "name": "discord-voucher-bot",
+  "version": "1.0.0",
+  "description": "ดักซองความไวสูง",
+  "main": "discord-bot.js",
+  "scripts": {
+    "start": "node discord-bot.js"
+  },
+  "keywords": [
+    "discord",
+    "voucher",
+    "truemoney"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.4.3",
+    "axios": "^1.7.9",
+    "cloudscraper": "^4.6.0",
+    "jimp": "^0.22.12",
+    "jsqr": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
